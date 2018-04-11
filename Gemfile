@@ -25,6 +25,7 @@ gem "sidekiq", ">= 4.2.0"
 gem "turbolinks", "~> 5"
 gem "graphql"
 gem 'graphql-errors'
+gem 'bcrypt', '~> 3.1.7'
 
 group :production, :staging do
   gem "postmark-rails"
