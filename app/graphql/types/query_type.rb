@@ -8,4 +8,9 @@ Types::QueryType = GraphQL::ObjectType.define do
     description "An example field added by the generator"
     resolve ->(_obj, _args, _ctx) { Link.all }
   end
+
+  field :allUsers do
+    type !types[Types::UserType]
+    resolve ->(_obj, _args, _ctx) { User.all }
+  end
 end
