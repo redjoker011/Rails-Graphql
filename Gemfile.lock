@@ -121,6 +121,8 @@ GEM
     get_process_mem (0.2.1)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
+    graphiql-rails (1.4.8)
+      rails
     graphql (1.7.14)
     graphql-errors (0.2.0)
       graphql (>= 1.6.0, < 2)
@@ -354,6 +356,7 @@ DEPENDENCIES
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
   dotenv-rails (>= 2.0.0)
+  graphiql-rails
   graphql
   graphql-errors
   guard (>= 2.2.2)
