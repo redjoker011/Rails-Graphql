@@ -374,6 +374,7 @@ DEPENDENCIES
   pg (>= 0.18)
   pgcli-rails
   postmark-rails
+  pry
   puma (~> 3.7)
   rack-livereload
   rails (~> 5.1.5)

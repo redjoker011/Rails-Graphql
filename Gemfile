@@ -64,6 +64,7 @@ group :development do
   gem "terminal-notifier", require: false
   gem "terminal-notifier-guard", require: false
   gem "xray-rails", ">= 0.1.18"
+  gem "pry"
 end
 
 group :test do
